@@ -1,8 +1,8 @@
 <head>
-    <!-- Tambahkan ini di bagian head -->
+    
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
-    <!-- script dan css lainnya yang sudah ada -->
+    
 </head>
 <div class="form-container">
         <h3>Tambahkan Marker</h3>
