@@ -23,7 +23,6 @@ Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
 Route::get('/tugas-handson-1', [HandsOnController::class, 'tugas1'])->name('tugas-handson-1');
 Route::get('/tugas-handson-2', [HandsOnController::class, 'tugas2'])->name('tugas-handson-2');
 
->>>>>>> Stashed changes
 // Marker routes
 Route::get('/api/markers', [MarkerController::class, 'index']);
 Route::post('/api/markers', [MarkerController::class, 'store']);
