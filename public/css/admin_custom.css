@@ -1,0 +1,48 @@
+/* Dark mode overrides */
+.dark-mode {
+    background-color: #1a1a1a !important;
+    color: #ffffff;
+}
+
+.dark-mode .card {
+    background-color: #2d3238 !important;
+    color: #ffffff;
+}
+
+.dark-mode .card-header {
+    background-color: #343a40 !important;
+    border-bottom: 1px solid #4b545c;
+}
+
+.dark-mode .form-control {
+    background-color: #343a40 !important;
+    border-color: #4b545c;
+    color: #ffffff;
+}
+
+.dark-mode .form-control[readonly] {
+    background-color: #383d43 !important;
+}
+
+.dark-mode .table {
+    color: #ffffff;
+}
+
+.dark-mode .table td,
+.dark-mode .table th {
+    border-top: 1px solid #4b545c;
+}
+
+.dark-mode .nav-pills .nav-link.active {
+    background-color: #3f6791;
+}
+
+/* Map container dark theme */
+.dark-mode .map-container {
+    background-color: #2d3238;
+}
+
+.dark-mode #leaflet-map,
+.dark-mode #google-map {
+    border: 1px solid #4b545c;
+} 
